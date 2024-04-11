@@ -50,14 +50,14 @@ Implemente o seguinte trecho de código em seu arquivo `html` no elemento que de
 ## Axios
 ### Passo 1: Instalação do axios
 
-Abra o terminal e execute o seguinte comando para instalar o JSON Server via npm (Node Package Manager):
+Abra o terminal e execute o seguinte comando para instalar o Axios via npm (Node Package Manager):
 
 ```bash
 npm install axios
 ```
 
 ## Passo 2: Adicionar a tag no HTML
-Para utilizar a biblioteca, adicione a tag de script do Font Awesome no seu arquivo HTML:
+Para utilizar a biblioteca, adicione a tag de script do Axios no seu arquivo HTML:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
