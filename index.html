@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Request</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Request</h1>
+        <button type="button" onclick="mostrarUsuarios()" title="ver conteúdo">
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+        <section class="content">
+            <div class="loader"></div>
+            <ul></ul>
+            <div class="bolha"></div>
+            <div class="areaMensagemDeErro">
+                <p id="mensagemDeErro"></p>
+                <button type="button" onclick="tentarDeNovo()" title="tentar de novo">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

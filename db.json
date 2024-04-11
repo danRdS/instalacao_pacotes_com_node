@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Moshé Hebreu"
+    },
+    {
+      "id": 2,
+      "name": "Joquebede Hebreia"
+    },
+    {
+      "id": 3,
+      "name": "Josué Hebreu"
+    }
+  ]
+}
